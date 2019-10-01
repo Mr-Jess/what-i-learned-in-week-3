@@ -20,7 +20,7 @@
 * Easily see what a bit of code is supposed to do.
 * Figure out why it's not, in fact, doing that.
 
-let x = 3;
+1. let x = 3;
 
 function nameX() {
     x = x + 1;
@@ -32,15 +32,8 @@ function nameX() {
 
 * If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
 
-1. let x = 3;
-
-function nameX() {
-    x = x + 1;
-}
-//Multiple Calls
-nameX();
-nameX();
-nameX();
+function myFunction(num) {
+    return num + 'jesse';
 
 ---
 
