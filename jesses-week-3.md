@@ -39,6 +39,10 @@ function myFunction(num) {
 
 ## String Methods (Return of the String)
 
+* All string methods return a new value. They do not change the original variable.
+
+* String indexes are zero-based: The first character is in position 0, the second in 1, and so on.
+
 1. function capitalize(str) {
     return str.toUpperCase();
 }
@@ -55,10 +59,10 @@ function myFunction(num) {
 
 #### Example of App:
 
-1. function toFahrenheit(celsius){
+function toFahrenheit(celsius){
     const fahrenheit = celsius * 9 / 5 + 32;
     console.log(fahrenheit);
-}
+  }
 const userInput = process.argv[2];
 toFahrenheit(userInput);
 
