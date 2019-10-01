@@ -20,11 +20,11 @@
 * Easily see what a bit of code is supposed to do.
 * Figure out why it's not, in fact, doing that.
 
-1. let x = 3;
+  1. let x = 3;
 
-function nameX() {
-    x = x + 1;
-}
+  function nameX() {
+      x = x + 1;
+  }
 
 #### Creating a return
 
