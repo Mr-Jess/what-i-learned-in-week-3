@@ -2,6 +2,8 @@
 
 ## HRM - Year 14, 16 and 17
 
+* Human Resource Machine is a challenging game. I like to make a mental flowcharts when attacking each level.
+
 * Level 17 took me a while to figure out. I started by adding in INBOX, COPYFROM and JUMPS.
 
 * When you detect two numbers that are the same, you'll jump up above the COPYFROM 4, and when you detect two numbers that are different, you'll jump up above the COPYFROM 5.
