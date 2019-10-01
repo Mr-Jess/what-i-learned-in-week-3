@@ -24,7 +24,8 @@
 
 ## Basic Functions
 
-* Every part of your code should have one job! That makes it easy to separate your code, so you can:
+* A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+* Makes it easy to separate your code.
 * Run the same code whenever you need to without repeating yourself.
 * Easily see what a bit of code is supposed to do.
 * Figure out why it's not, in fact, doing that.
@@ -35,9 +36,13 @@ function nameX() {
     x = x + 1;
 }
 
-#### Creating a call
+#### Creating a return
 
-let x = 3;
+* When JavaScript reaches a return statement, the function will stop executing.
+
+* If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+
+1. let x = 3;
 
 function nameX() {
     x = x + 1;
