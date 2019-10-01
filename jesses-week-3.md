@@ -20,8 +20,6 @@
 * Easily see what a bit of code is supposed to do.
 * Figure out why it's not, in fact, doing that.
 
-let x = 3;
-
 ```
 
 function nameX() {
