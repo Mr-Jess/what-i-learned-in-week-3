@@ -12,18 +12,6 @@
 
 ---
 
-## String Methods (Return of the String)
-
-1. function capitalize(str) {
-    return str.toUpperCase();
-}
-
-2. function exclaim(str) {
-    return str + '!';
-}
-
----
-
 ## Basic Functions
 
 * A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
@@ -56,6 +44,18 @@ nameX();
 
 ---
 
+## String Methods (Return of the String)
+
+1. function capitalize(str) {
+    return str.toUpperCase();
+}
+
+2. function exclaim(str) {
+    return str + '!';
+}
+
+---
+
 ## Degree Converter App
 
 * Making simple apps. This is a great example and learning new code and tools looking forward to expanding on adding more functions.
@@ -68,6 +68,5 @@ nameX();
 }
 const userInput = process.argv[2];
 toFahrenheit(userInput);
-
 
 ---
