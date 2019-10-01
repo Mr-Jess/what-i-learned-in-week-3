@@ -20,11 +20,17 @@
 * Easily see what a bit of code is supposed to do.
 * Figure out why it's not, in fact, doing that.
 
-  1. let x = 3;
+let x = 3;
 
-  function nameX() {
-      x = x + 1;
-  }
+```
+
+function nameX() {
+    x = x + 1;
+}
+
+```
+
+---
 
 #### Creating a return
 
@@ -32,8 +38,12 @@
 
 * If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
 
-function myFunction(num) {
-    return num + 'jesse';
+```
+
+function hello(name) {
+    return 'hello' + name;
+
+```
 
 ---
 
@@ -43,13 +53,21 @@ function myFunction(num) {
 
 * String indexes are zero-based: The first character is in position 0, the second in 1, and so on.
 
-1. function capitalize(str) {
+```
+
+function capitalize(str) {
     return str.toUpperCase();
 }
 
-2. function exclaim(str) {
+```
+
+```
+
+function exclaim(str) {
     return str + '!';
 }
+
+```
 
 ---
 
@@ -59,11 +77,15 @@ function myFunction(num) {
 
 #### Example of App:
 
+```
+
 function toFahrenheit(celsius){
     const fahrenheit = celsius * 9 / 5 + 32;
     console.log(fahrenheit);
   }
 const userInput = process.argv[2];
 toFahrenheit(userInput);
+
+```
 
 ---
